@@ -1,4 +1,4 @@
-interface Worker {
+interface BestWorker {
   id: number;
   name: string;
   surname: string;

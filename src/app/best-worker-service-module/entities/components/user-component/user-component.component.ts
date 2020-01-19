@@ -6,10 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./user-component.component.css']
 })
 export class UserComponentComponent implements OnInit {
+  public worker: BestWorker[];
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit() {
+    this.worker = workers;
   }
 
 }

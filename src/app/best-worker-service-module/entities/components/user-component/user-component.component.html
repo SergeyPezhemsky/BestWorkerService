@@ -2,14 +2,8 @@
   <div class ="chose-worker-block">
     <div class="header-block"></div>
     <span class="header-text-block">Голосование "Лучший командный игрок и сотрудник недели"</span>
-    <dx-select-box [dataSource]="workersMock"
-                   displayExpr="Name"
-                   [searchMode]="searchModeOption"
-                   [searchExpr]="searchExprOption"
-                   [searchTimeout]="searchTimeoutOption"
-                   [minSearchLength]="minSearchLengthOption"
-                   [searchEnabled]="true">
-
+    <dx-select-box [dataSource]="worker"
+                   displayExpr="name">
     </dx-select-box>
   </div>
 </form>

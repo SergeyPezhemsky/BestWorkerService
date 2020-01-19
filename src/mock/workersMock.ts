@@ -1,14 +1,17 @@
-const workers: Worker[] = [{
+const workers: BestWorker[] = [
+  {
   id: 1,
   name: 'Sergey',
   surname: 'Pezhemsky'
-},
+  },
   {
     id: 1,
     name: 'Ildar',
-    surname: 'Dautov'},
+    surname: 'Dautov'
+  },
   {
   id: 1,
   name: 'Nastya',
-  surname: 'Polyakova'}];
+  surname: 'Polyakova'
+  }];
 
