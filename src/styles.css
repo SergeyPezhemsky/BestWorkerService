@@ -1,1 +1,6 @@
-/* You can add global styles to this file, and also import other style files */
+HTML{
+  display: flex;
+  flex: 60%;
+  justify-content: center;
+  background-color: #ede7f6;
+}

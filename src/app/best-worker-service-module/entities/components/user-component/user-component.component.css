@@ -1,0 +1,24 @@
+.wrapper{
+
+}
+.chose-worker-block{
+  display:flex;
+  flex: 60%;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+}
+.chose-worker-block .header-block{
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  height: 10px;
+  left: -1px;
+  top: -1px;
+  width: calc(100% + 2px);
+  background-color: rgb(103, 58, 183);;
+}
+.chose-worker-block .header-text-block{
+  font-family: Roboto;
+  font-size: x-large;
+}
