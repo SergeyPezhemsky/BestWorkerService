@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {workers} from '../../../../../mock/workersMock';
+import {BestWorker} from '../../interfaces/worker.interface';
 
 @Component({
   selector: 'app-user-component',
