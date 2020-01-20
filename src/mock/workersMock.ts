@@ -1,4 +1,6 @@
-const workers: BestWorker[] = [
+import {BestWorker} from '../app/best-worker-service-module/entities/interfaces/worker.interface';
+
+export const workers: BestWorker[] = [
   {
   id: 1,
   name: 'Sergey',

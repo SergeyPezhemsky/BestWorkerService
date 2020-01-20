@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {workers} from '../../../../../mock/workersMock';
 
 @Component({
   selector: 'app-user-component',

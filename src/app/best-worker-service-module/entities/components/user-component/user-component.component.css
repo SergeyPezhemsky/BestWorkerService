@@ -1,9 +1,9 @@
 .wrapper{
-
+  display:flex;
+  flex: 20%;
 }
 .chose-worker-block{
-  display:flex;
-  flex: 60%;
+
   justify-content: center;
   flex-direction: column;
   background-color: rgb(255, 255, 255);
@@ -20,5 +20,5 @@
 }
 .chose-worker-block .header-text-block{
   font-family: Roboto;
-  font-size: x-large;
+  font-size: xx-large;
 }
